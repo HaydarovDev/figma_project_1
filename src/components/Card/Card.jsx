@@ -19,6 +19,7 @@ const Card = () => {
     fetchData();
   }, []);
 
+  
   const filteredData = search
     ? data.filter((item) =>
         item.title.toLowerCase().includes(search.toLowerCase())
